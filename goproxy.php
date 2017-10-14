@@ -223,9 +223,9 @@ function get() {
     $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : $_SERVER['SERVER_NAME'];
     $domain = preg_replace('/.*\\.(.+\\..+)$/', '$1', $host);
     if ($host && $host != $domain && $host != 'www'.$domain) {
-        header('Location: http://www.cnsztl.xyz');
+        header('Location: https://www.crosscngfw.ml');
     } else {
-        header('Location: http://www.cnsztl.xyz');
+        header('Location: https://www.crosscngfw.ml');
     }
 }
 
